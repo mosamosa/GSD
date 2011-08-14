@@ -1,0 +1,24 @@
+LIBRARY
+SECTIONS
+	.sharedata READ WRITE SHARED
+
+EXPORTS
+	GSD_CheckApiVersion		@1
+	GSD_DataLock			@2
+	GSD_DataUnlock			@3
+	GSD_DelTexture			@4
+	GSD_Finalize			@5
+	GSD_GetApiVersion		@6
+	GSD_GetLastUpdate		@7
+	GSD_GetMaxTextureNum	@8
+	GSD_GetMaxTextureSize	@9
+	GSD_GetTexture			@10
+	GSD_GetVersion			@11
+	GSD_InitTexture			@12
+	GSD_Initialize			@13
+	GSD_SetFpsAlign			@14
+	GSD_SetFpsLimit			@15
+	GSD_SetTexture			@16
+	GSD_SetTimerOrg			@17
+	GSD_ShowFps				@18
+	GSD_UpdateOnActive		@19
